@@ -6,4 +6,8 @@ The link to the application can be found here: https://dixonliang.shinyapps.io/p
 
 The application provides recommendations through user input. 
 
+1) Genre Recommendation: By using simple filtering in R, the application provides the top 10 movies for a genre selected by the user by using a popularity measure. The populairty measure is based on the highest average rating given a minimum number of ratings. 
+
+2) User Recommendation: By asking the user to rate a subset of movies, the application uses UBCF (User-Based Collaborative Filtering) to recommend up to 10 movies that user might like. 
+
 
