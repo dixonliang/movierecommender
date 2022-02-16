@@ -25,7 +25,7 @@ calculate_predictions <- function(ratings_matrix, similarity_matrix){
   similarity_matrix@x <- abs(similarity_matrix@x)
   sum_abs_similarities <- ratings_matrix %*% similarity_matrix
   
-  # TODO: Check if sum_abs_similarities@x can contain zeros
+  
   predictions@x <- predictions@x / sum_abs_similarities@x
   predictions
 }
